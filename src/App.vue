@@ -1,7 +1,10 @@
 <template>
   <div class="app">
     <MasterHeader></MasterHeader>
-    <router-view />
+    <main class="main">
+      <Container />
+      <router-view />
+    </main>
   </div>
 </template>
 
@@ -15,3 +18,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.main {
+  padding-top: 40px;
+}
+</style>

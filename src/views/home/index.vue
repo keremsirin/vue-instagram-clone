@@ -4,7 +4,7 @@
     <CustomText class="" tag="p">Selam</CustomText>
     <CustomText class="" tag="p" size="small">Selam</CustomText>
     <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
-    <CustomText tag="p" size="xxsmall">Selam</CustomText>
+    <!-- <CustomText tag="p" size="xxsmall">Selam</CustomText>
     <IconHome width="60" height="60" />
     <IconHomeSelected width="60" height="60" />
     <IconDirect width="60" height="60" />
@@ -31,67 +31,67 @@
     <IconPosts width="60" height="60" />
     <IconIGTV width="60" height="60" />
     <IconSaved width="60" height="60" />
-    <IconTagged width="60" height="60" />
+    <IconTagged width="60" height="60" /> -->
   </div>
 </template>
 
 <script>
 import CustomText from '@/components/CustomText'
-import IconHome from '../../icons/home.svg'
-import IconHomeSelected from '../../icons/home-selected.svg'
-import IconDirect from '../../icons/direct.svg'
-import IconDirectSelected from '../../icons/direct-selected.svg'
-import IconExplore from '../../icons/explore.svg'
-import IconExploreSelected from '../../icons/explore-selected.svg'
-import IconNotifications from '../../icons/notifications.svg'
-import IconNotificationsSelected from '../../icons/notifications-selected.svg'
-import IconDots from '../../icons/dots.svg'
-import IconLike from '../../icons/like.svg'
-import IconLikeSelected from '../../icons/like-selected.svg'
-import IconComment from '../../icons/comment.svg'
-import IconShare from '../../icons/share.svg'
-import IconSave from '../../icons/save.svg'
-import IconSaveSelected from '../../icons/save-selected.svg'
-import IconEmoji from '../../icons/emoji.svg'
-import IconOptions from '../../icons/options.svg'
-import IconPosts from '../../icons/posts.svg'
-import IconIGTV from '../../icons/igtv.svg'
-import IconSaved from '../../icons/saved.svg'
-import IconTagged from '../../icons/tagged.svg'
-import IconNewMessage from '../../icons/new-message.svg'
-import IconArrow from '../../icons/arrow.svg'
-import IconInfo from '../../icons/info.svg'
-import IconAddImg from '../../icons/add-img.svg'
+// import IconHome from '../../icons/home.svg'
+// import IconHomeSelected from '../../icons/home-selected.svg'
+// import IconDirect from '../../icons/direct.svg'
+// import IconDirectSelected from '../../icons/direct-selected.svg'
+// import IconExplore from '../../icons/explore.svg'
+// import IconExploreSelected from '../../icons/explore-selected.svg'
+// import IconNotifications from '../../icons/notifications.svg'
+// import IconNotificationsSelected from '../../icons/notifications-selected.svg'
+// import IconDots from '../../icons/dots.svg'
+// import IconLike from '../../icons/like.svg'
+// import IconLikeSelected from '../../icons/like-selected.svg'
+// import IconComment from '../../icons/comment.svg'
+// import IconShare from '../../icons/share.svg'
+// import IconSave from '../../icons/save.svg'
+// import IconSaveSelected from '../../icons/save-selected.svg'
+// import IconEmoji from '../../icons/emoji.svg'
+// import IconOptions from '../../icons/options.svg'
+// import IconPosts from '../../icons/posts.svg'
+// import IconIGTV from '../../icons/igtv.svg'
+// import IconSaved from '../../icons/saved.svg'
+// import IconTagged from '../../icons/tagged.svg'
+// import IconNewMessage from '../../icons/new-message.svg'
+// import IconArrow from '../../icons/arrow.svg'
+// import IconInfo from '../../icons/info.svg'
+// import IconAddImg from '../../icons/add-img.svg'
 
 export default {
   name: 'Home',
   components: {
-    CustomText,
-    IconHome,
-    IconHomeSelected,
-    IconDirect,
-    IconDirectSelected,
-    IconExplore,
-    IconExploreSelected,
-    IconNotifications,
-    IconNotificationsSelected,
-    IconDots,
-    IconLike,
-    IconLikeSelected,
-    IconComment,
-    IconShare,
-    IconSave,
-    IconSaveSelected,
-    IconEmoji,
-    IconOptions,
-    IconPosts,
-    IconIGTV,
-    IconSaved,
-    IconTagged,
-    IconNewMessage,
-    IconArrow,
-    IconInfo,
-    IconAddImg
+    CustomText
+    // IconHome,
+    // IconHomeSelected,
+    // IconDirect,
+    // IconDirectSelected,
+    // IconExplore,
+    // IconExploreSelected,
+    // IconNotifications,
+    // IconNotificationsSelected,
+    // IconDots,
+    // IconLike,
+    // IconLikeSelected,
+    // IconComment,
+    // IconShare,
+    // IconSave,
+    // IconSaveSelected,
+    // IconEmoji,
+    // IconOptions,
+    // IconPosts,
+    // IconIGTV,
+    // IconSaved,
+    // IconTagged,
+    // IconNewMessage,
+    // IconArrow,
+    // IconInfo,
+    // IconAddImg
   }
 }
 </script>
