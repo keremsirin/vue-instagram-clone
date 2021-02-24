@@ -4,6 +4,36 @@
     <CustomText class="" tag="p">Selam</CustomText>
     <CustomText class="" tag="p" size="small">Selam</CustomText>
     <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
+    <CustomText class="" tag="p">Selam</CustomText>
+    <CustomText class="" tag="p" size="small">Selam</CustomText>
+    <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
+    <CustomText class="" tag="p">Selam</CustomText>
+    <CustomText class="" tag="p" size="small">Selam</CustomText>
+    <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
+    <CustomText class="" tag="p">Selam</CustomText>
+    <CustomText class="" tag="p" size="small">Selam</CustomText>
+    <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
+    <CustomText class="" tag="p">Selam</CustomText>
+    <CustomText class="" tag="p" size="small">Selam</CustomText>
+    <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
+    <CustomText class="" tag="p">Selam</CustomText>
+    <CustomText class="" tag="p" size="small">Selam</CustomText>
+    <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
+    <CustomText class="" tag="p">Selam</CustomText>
+    <CustomText class="" tag="p" size="small">Selam</CustomText>
+    <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
+    <CustomText class="" tag="p">Selam</CustomText>
+    <CustomText class="" tag="p" size="small">Selam</CustomText>
+    <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
+    <CustomText class="" tag="p">Selam</CustomText>
+    <CustomText class="" tag="p" size="small">Selam</CustomText>
+    <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
+    <CustomText class="" tag="p">Selam</CustomText>
+    <CustomText class="" tag="p" size="small">Selam</CustomText>
+    <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
+    <CustomText class="" tag="p">Selam</CustomText>
+    <CustomText class="" tag="p" size="small">Selam</CustomText>
+    <CustomText class="" tag="p" size="xsmall">SelamSon</CustomText>
     <!-- <CustomText tag="p" size="xxsmall">Selam</CustomText>
     <IconHome width="60" height="60" />
     <IconHomeSelected width="60" height="60" />

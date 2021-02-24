@@ -17,5 +17,10 @@ export default {
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+
+  @media (--t) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 </style>

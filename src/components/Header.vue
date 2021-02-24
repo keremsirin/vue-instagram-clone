@@ -1,14 +1,15 @@
 <template>
   <header class="header">
     <Container class="header-inner">
+      <!-- logo -->
       <router-link to="/" class="logo">
         <img src="@/assets/logo.png" width="" height="" />
       </router-link>
-
+      <!-- search -->
       <form class="search">
         <input type="text" placeholder="Search" />
       </form>
-
+      <!-- nav -->
       <nav class="navigation">
         <router-link to="/">
           <IconHomeSelected v-if="$route.name === 'Home'" />
@@ -63,46 +64,77 @@ export default {
 
 <style scoped>
 .header {
-  /* background-color: yellow; */
+  background-color: white;
   border-bottom: 1px solid rgb(var(--b6a));
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 90;
 }
 .header-inner {
-  display: grid;
   height: 53px;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
   align-items: center;
+  justify-content: center;
+
+  @media (--t) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
 }
 .logo {
   display: flex;
   margin-top: 7px;
 }
 .search {
-  text-align: center;
+  display: none;
 
-  input {
-    width: 215px;
-    height: 28px;
-    border: 1px solid rgb(var(--b6a));
-    background-color: rgb(var(--b3f));
-    border-radius: 4px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-right: 10px;
+  @media (--t) {
+    display: block;
+    text-align: center;
 
-    &::placeholder {
-      text-align: center;
+    input {
+      width: 215px;
+      height: 28px;
+      border: 1px solid rgb(var(--b6a));
+      background-color: rgb(var(--b3f));
+      border-radius: 4px;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-right: 10px;
+
+      &::placeholder {
+        text-align: center;
+      }
     }
   }
 }
 
 .navigation {
+  z-index: 90;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  border-top: 1px solid rgb(var(--b6a));
+  height: 60px;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  margin-top: 4px;
+  justify-content: space-around;
 
-  a {
-    margin-left: 21px;
+  @media (--t) {
+    height: auto;
+    position: static;
+    justify-content: flex-end;
+    margin-top: 4px;
+    border-top: none;
+
+    a {
+      margin-left: 21px;
+    }
   }
 }
 </style>
