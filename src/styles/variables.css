@@ -1,5 +1,12 @@
 :root {
   --header-height: 54px;
+  --avatar-bgc: linear-gradient(
+    90deg,
+    rgba(193, 53, 132, 1) 0%,
+    rgba(225, 48, 108, 1) 35%,
+    rgba(247, 119, 55, 1) 70%,
+    rgba(255, 220, 128, 1) 100%
+  );
 
   --i1d: 38, 38, 38;
   --edc: 199, 199, 199;

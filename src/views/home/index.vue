@@ -1,39 +1,26 @@
 <template>
   <div class="home">
-    <h1>Home</h1>
-    <CustomText class="" tag="p">Selam</CustomText>
-    <CustomText class="" tag="p" size="small">Selam</CustomText>
-    <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
-    <CustomText class="" tag="p">Selam</CustomText>
-    <CustomText class="" tag="p" size="small">Selam</CustomText>
-    <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
-    <CustomText class="" tag="p">Selam</CustomText>
-    <CustomText class="" tag="p" size="small">Selam</CustomText>
-    <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
-    <CustomText class="" tag="p">Selam</CustomText>
-    <CustomText class="" tag="p" size="small">Selam</CustomText>
-    <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
-    <CustomText class="" tag="p">Selam</CustomText>
-    <CustomText class="" tag="p" size="small">Selam</CustomText>
-    <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
-    <CustomText class="" tag="p">Selam</CustomText>
-    <CustomText class="" tag="p" size="small">Selam</CustomText>
-    <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
-    <CustomText class="" tag="p">Selam</CustomText>
-    <CustomText class="" tag="p" size="small">Selam</CustomText>
-    <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
-    <CustomText class="" tag="p">Selam</CustomText>
-    <CustomText class="" tag="p" size="small">Selam</CustomText>
-    <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
-    <CustomText class="" tag="p">Selam</CustomText>
-    <CustomText class="" tag="p" size="small">Selam</CustomText>
-    <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
-    <CustomText class="" tag="p">Selam</CustomText>
-    <CustomText class="" tag="p" size="small">Selam</CustomText>
-    <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
-    <CustomText class="" tag="p">Selam</CustomText>
-    <CustomText class="" tag="p" size="small">Selam</CustomText>
-    <CustomText class="" tag="p" size="xsmall">SelamSon</CustomText>
+    <div class="timeline">
+      <h1>Timeline</h1>
+      <CustomText class="" tag="p">Selam</CustomText>
+      <Avatar :size="80" />
+    </div>
+
+    <div class="sidebar">
+      <h1>Sidebar</h1>
+      <CustomText class="" tag="p">Selam</CustomText>
+      <CustomText class="" tag="p" size="small">Selam</CustomText>
+      <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
+      <CustomText class="" tag="p">Selam</CustomText>
+      <CustomText class="" tag="p" size="small">Selam</CustomText>
+      <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
+      <CustomText class="" tag="p">Selam</CustomText>
+      <CustomText class="" tag="p" size="small">Selam</CustomText>
+      <CustomText class="" tag="p" size="xsmall">Selam</CustomText>
+      <CustomText class="" tag="p">Selam</CustomText>
+      <CustomText class="" tag="p" size="small">Selam</CustomText>
+    </div>
+
     <!-- <CustomText tag="p" size="xxsmall">Selam</CustomText>
     <IconHome width="60" height="60" />
     <IconHomeSelected width="60" height="60" />
@@ -67,6 +54,7 @@
 
 <script>
 import CustomText from '@/components/CustomText'
+import Avatar from '@/components/Avatar'
 // import IconHome from '../../icons/home.svg'
 // import IconHomeSelected from '../../icons/home-selected.svg'
 // import IconDirect from '../../icons/direct.svg'
@@ -96,7 +84,8 @@ import CustomText from '@/components/CustomText'
 export default {
   name: 'Home',
   components: {
-    CustomText
+    CustomText,
+    Avatar
     // IconHome,
     // IconHomeSelected,
     // IconDirect,
@@ -127,13 +116,22 @@ export default {
 </script>
 
 <style scoped>
-.a1 {
-  color: rgb(var(--a72));
+.home {
+  max-width: 605px;
+  margin-left: auto;
+  margin-right: auto;
+  @media (--t) {
+    max-width: none;
+    display: grid;
+    grid-template-columns: 1fr 295px;
+    grid-gap: 30px;
+  }
 }
-.a2 {
-  color: rgb(var(--b3f));
-}
-.a3 {
-  color: rgb(var(--ba8));
+
+.sidebar {
+  display: none;
+  @media (--t) {
+    display: block;
+  }
 }
 </style>

@@ -29,7 +29,9 @@
           <!-- <IconNotificationsSelected /> -->
         </a>
 
-        <router-link to="/profile"> Profile </router-link>
+        <router-link to="/profile">
+          <Avatar :size="26" style="background: transparent" />
+        </router-link>
       </nav>
     </Container>
   </header>
@@ -44,6 +46,7 @@ import IconDirectSelected from '@/icons/direct-selected.svg'
 import IconExplore from '@/icons/explore.svg'
 import IconExploreSelected from '@/icons/explore-selected.svg'
 import IconNotifications from '@/icons/notifications.svg'
+import Avatar from '@/components/Avatar'
 // import IconNotificationsSelected from '@/icons/notifications-selected.svg'
 
 export default {
@@ -56,7 +59,8 @@ export default {
     IconDirectSelected,
     IconExplore,
     IconExploreSelected,
-    IconNotifications
+    IconNotifications,
+    Avatar
     // IconNotificationsSelected
   }
 }
