@@ -1,9 +1,17 @@
 <template>
   <div class="home">
     <div class="timeline">
-      <h1>Timeline</h1>
-      <CustomText class="" tag="p">Selam</CustomText>
-      <Avatar :size="80" />
+      <!-- <br />
+      <br />
+      <br />
+      <br /> -->
+
+      <Post />
+
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
 
     <div class="sidebar">
@@ -54,7 +62,8 @@
 
 <script>
 import CustomText from '@/components/CustomText'
-import Avatar from '@/components/Avatar'
+import Post from '@/components/Post'
+// import Avatar from '@/components/Avatar'
 // import IconHome from '../../icons/home.svg'
 // import IconHomeSelected from '../../icons/home-selected.svg'
 // import IconDirect from '../../icons/direct.svg'
@@ -85,7 +94,8 @@ export default {
   name: 'Home',
   components: {
     CustomText,
-    Avatar
+    Post
+    // Avatar
     // IconHome,
     // IconHomeSelected,
     // IconDirect,
