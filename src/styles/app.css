@@ -30,3 +30,34 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+input {
+  outline: none;
+}
+
+textarea {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong,
+label {
+  font-weight: 600;
+}
